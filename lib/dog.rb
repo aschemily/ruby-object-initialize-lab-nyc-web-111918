@@ -1,12 +1,10 @@
 class Dog 
   
-def initialize(name,breed="")
+def initialize(name,breed="Mutt")
     @name = name
     @breed = breed 
     
-    if @breed && @name == 0  
-      return "Mutt"
-    end 
+  
     
   end
   
