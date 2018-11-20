@@ -4,7 +4,7 @@ def initialize(name,breed)
     @name = name
     @breed = breed 
     
-    if breed && name == 0  
+    if breed && name == nil  
       return "Mutt"
     end 
     
