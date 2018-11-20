@@ -5,12 +5,6 @@ def initialize(name,breed)
     @breed = breed 
   end
   
-  def initalize(breed)
-    @breed = breed 
-  end
-
-
-
 
 end
   
